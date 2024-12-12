@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/332c211136.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="back"></div>
+    <div class="container" id="header">
+      <nav>
+        <div id="logo">ABHINAV</div>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Front-End Developer</p>
+        <h1>Hi, I am <span>Abhinav Patil</span><br />from India</h1>
+      </div>
+    </div>
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/aboutbg.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+           Hello everyone, myself Abhinav Patil a 3rd year engineering student currently pursuing my Bachelors of Engineering in Computer Science and Business Sytems from Dayanand Sagar College of Engineering. My skills include front-end web development, UI/UX Designing and Photography. My hobbies are playing cricket, learning new technologies and creating music.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web App interfaces</li>
+              <li><span>Web development</span><br />Developing Web app with latest technologies</li>
+              <li><span>Data Analysis</span><br />Using Python and its inbuilt libraries </li>
+              <li><span>Videography</span><br>Shooting and Editing video clips</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="achievements">
+            <ul>
+              <li><span>Hack-O-Rama</span><br />Hackathon organized by CSBS Department</li>
+              <li><span>Udbhava</span><br />Media Sub-Head</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Dayananda Sagar College of Engineering</span><br />B.E Computer Science and Business Systems</li>
+              <li><span>Sharnbasveshwar Residential Pu College</span><br />Higher Secondary Education</li>
+              <li><span>Appa Public School</span><br />Secondary Education</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design services using HTML, CSS, and JavaScript involve creating responsive, visually appealing, and functional websites. These include designing intuitive layouts, adding interactivity like forms or sliders, and optimizing performance for all devices. CSS frameworks (e.g., Bootstrap) and JS libraries (e.g., React) can be used to enhance development. Services also cover SEO optimization, e-commerce integration, and regular maintenance. The goal is to deliver user-friendly, custom websites tailored to client needs.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI/UX design focuses on creating intuitive and engaging user experiences for digital interfaces. UI (User Interface) involves designing visually appealing layouts, typography, and interactive elements to ensure clarity and consistency. UX (User Experience) emphasizes user flow, accessibility, and functionality to make interactions seamless and enjoyable. The process includes user research, wireframing, prototyping, and testing to meet user needs effectively. The ultimate goal is to combine aesthetics and usability for a satisfying and efficient user experience.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-camera"></i>
+            <h2>Video Editing</h2>
+            <p>
+              Video editing involves refining raw footage into polished videos by cutting, arranging, and enhancing clips. It includes adding transitions, effects, music, and text overlays to convey a story or message effectively. Advanced techniques like color correction, audio balancing, and motion graphics can elevate video quality. Editors use tools like Adobe Premiere Pro, Final Cut Pro, or DaVinci Resolve for professional results. The goal is to create visually compelling and engaging content tailored to the audience and purpose.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>All  in the Swing</h3>
+              <p>
+               A responsive website Home to a 46-bay, multi-tier, floodlit driving range, powered by
+              Toptracer Range technology. Complimented by a practice green and
+              bunker, coffee shop and American Golf Store. There truly is
+              something for everyone as we also boast two outdoor 18-hole
+              dinosaur themed crazy golf courses.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+                <h3>Tune-In</h3>
+                <p>
+                  A responsive music website designed using HTML, CSS, and JavaScript to provide an engaging experience across devices. The HTML structure organizes content such as playlists, artists, and albums, while CSS ensures a visually appealing layout with responsive design principles like flexbox or grid for adaptable elements. JavaScript enhances interactivity with features like a dynamic audio player, volume controls, and playlist navigation. Mobile responsiveness can include touch-friendly controls and optimized layouts. Animation effects powered by CSS or JS add polish, such as smooth transitions or visual feedback for user actions. The site can also integrate APIs for streaming music or real-time data updates.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+                <h3>Learn_Easy</h3>
+                <p>
+                It is an educational computer science website which is dynamic platform designed to teach programming, algorithms, and tech concepts. It may feature interactive tutorials, coding challenges, and project-based learning to engage users effectively. A responsive design ensures accessibility across devices, while a user-friendly interface encourages exploration of topics like AI, web development, and data science. Additional resources like video lessons, forums, and quizzes foster a collaborative learning environment. Integration of gamified elements, such as badges and leaderboards, can motivate learners. The site could also provide tools for coding practice and real-time feedback to enhance skills development.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhinavpatil14062004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8904168608</p>
+                <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Jake_s_Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Abhinav. Made with<i class="fa-solid fa-web-awesome"></i> HTML,CSS,JS</p>
+        </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzxqt_guPXs4ajzmqGQ8E2kV8KYmwJ17UKMfDO3rrjqh49BbkVsKgMC7xURkBtZivMl3w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then((response) => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
